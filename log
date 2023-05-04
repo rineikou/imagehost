@@ -1,4 +1,4 @@
-ffmpeg -i "【重音テト】吉原ラメント【オリジナル】⧸【KASANE TETO】Yoshiwara　Lament【original】 [NKYqJ3UvjIk].mkv"
+ffmpeg -i filename.mkv -attach cover.png -metadata:s:t mimetype=image/png -codec copy output.mkv
 ffmpeg version 2023-04-03-git-6941788d24-full_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
   built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
   configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
@@ -10,7 +10,7 @@ ffmpeg version 2023-04-03-git-6941788d24-full_build-www.gyan.dev Copyright (c) 2
   libswscale      7.  2.100 /  7.  2.100
   libswresample   4. 11.100 /  4. 11.100
   libpostproc    57.  2.100 / 57.  2.100
-Input #0, matroska,webm, from '【重音テト】吉原ラメント【オリジナル】⧸【KASANE TETO】Yoshiwara　Lament【original】 [NKYqJ3UvjIk].mkv':
+Input #0, matroska,webm, from 'filename.mkv':
   Metadata:
     title           : 【重音テト】吉原ラメント【オリジナル】/【KASANE TETO】Yoshiwara　Lament【original】
     COMMENT         : https://www.youtube.com/watch?v=NKYqJ3UvjIk
@@ -247,6 +247,507 @@ Input #0, matroska,webm, from '【重音テト】吉原ラメント【オリジ�
   Stream #0:1(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 30 fps, 30 tbr, 1k tbn (default)
     Metadata:
       DURATION        : 00:03:53.980000000
+  Stream #0:2: Video: png, rgb24(pc, gbr/unknown/unknown), 640x480 [SAR 1:1 DAR 4:3], 90k tbr, 90k tbn (attached pic)
+    Metadata:
+      filename        : cover.png
+      mimetype        : image/png
+Output #0, matroska, to 'output.mkv':
+  Metadata:
+    title           : 【重音テト】吉原ラメント【オリジナル】/【KASANE TETO】Yoshiwara　Lament【original】
+    COMMENT         : https://www.youtube.com/watch?v=NKYqJ3UvjIk
+    ARTIST          : “亜沙” ASA official channel
+    DATE            : 20140529
+    DESCRIPTION     : 吉原ラメントが小説になりました！
+                    : http://www.alphapolis.co.jp/lament/
+                    : 試し読みはこちら！→bk116248
+                    :
+                    : 配信リンク→https://lnk.to/_asa
+                    :
+                    : Lamp Sound Studioの亜沙です。
+                    : 小山乃舞世さんからコラボの話をもらってから半年も時間がかかってしまった。。。
+                    : 花魁さんの歌です。個人的には紫陽花の方が好き。そんな２０１２年夏。
+                    :
+                    : Lamp Sound Studio　http://lampsoundstudio.com/
+                    :
+                    : 作詞 作曲 アレンジ ベース:亜沙
+                    : Twitter:@bass_asa
+                    : http://ameblo.jp/asabassguitar/
+                    : ギター:広末慧
+                    : Twitter:@Kei_Hirosue
+                    : 動画 絵 台詞 調声:小山乃舞世
+                    : Twitter:@yamanon1130
+                    : mylist/18092110
+                    : 歌：重音テト
+                    : offvocal　http://piapro.jp/ele_
+                    : 高くて断念した人用　http://piapro.jp/t/LY0y
+                    :
+                    : ▼亜沙Twitter
+                    : https://twitter.com/bass_asa
+                    :
+                    : ▼亜沙ブログ
+                    : http://ameblo.jp/asabassguitar/
+                    :
+                    : ▼亜沙アルバム好評発売中！
+                    :
+                    : 吉原ラメント〜唄い手盤〜
+                    : QWCE-00304 1,905円(本体)＋税
+                    : 亜沙 × 男性歌い手による豪華饗宴!!
+                    : 再生回数約80万回を記録している
+                    : 超人気UTAU楽曲｢吉原ラメント｣でおなじみ
+                    : UTAUクリエイター『亜沙』の人気楽曲を
+                    : 豪華男性歌い手陣が唄い奏でる!!
+                    : http://www.amazon.co.jp/dp/B00EC41U2C
+                    :
+                    : 01. 吉原ラメント / 亜沙 feat.ピコ
+                    : 02. 星詠みエンドラヴァー / 亜沙 feat.しゃむおん
+                    : 03. 明正ロマン / 亜沙 feat.りぶ
+                    : 04. ヴィジュアル系レッドラム / 亜沙 feat.みーちゃん
+                    : 05. 哀愁レインカフェテリア / 亜沙 feat.赤飯
+                    : 06. 池袋黄昏ナイトクラブ / 亜沙 feat.maro.
+                    : 07. 色彩クリアランス / 亜沙 feat.kradness
+                    : 08. 鏡の中のメモリーズ / 亜沙 feat.かんせる
+                    : 09. stardust / 亜沙 feat.kain
+                    : 10. 新宿ソリチュード / 亜沙 feat.じんけ
+                    : 11. 未来ページ / 亜沙 feat.のど飴
+                    : 12. 六本木ベイビィバタフライ / 亜沙 feat.にっとメガネ
+                    : 13. 道玄坂ネオンアパート / 亜沙
+                    : 14. 東京デイブレーク / 亜沙 feat.けったろ
+                    : 15. 悲恋華ブロッサム / 亜沙 feat.蛇足
+                    :
+                    : 吉原ラメント〜UTAU盤〜
+                    : QWCE-00303 1,905円(本体)＋税
+                    : 全ての重音テトファンに捧げる
+                    : 亜沙1stUTAUアルバム!!
+                    : 再生回数90万回超!
+                    : 小説化も果たした
+                    : 超人気UTAU楽曲「吉原ラメント」でおなじみ
+                    : UTAUクリエイター『亜沙』の人気楽曲を
+                    : 余すところなく収録!!
+                    : http://www.amazon.co.jp/dp/B00GJHXAIM
+                    :
+                    : 01. 吉原ラメント / 亜沙 feat.重音テト
+                    : 02. 浮気者エンドロール / 亜沙 feat.重音テト
+                    : 03. 道玄坂ネオンアパート / 亜沙 feat.重音テト
+                    : 04. 六本木ベイビィバタフライ / 亜沙 feat.重音テト
+                    : 05. 明正ロマン / 亜沙 feat.重音テト
+                    : 06. 哀愁レインカフェテリア / 亜沙 feat.重音テト
+                    : 07. 池袋黄昏ナイトクラブ / 亜沙 feat.重音テト
+                    : 08. 星詠みエンドラヴァー / 亜沙 feat.重音テト
+                    : 09. 海の見える町 / 亜沙 feat.重音テト
+                    : 10. ヴィジュアル系レッドラム / 亜沙 feat.重音テト
+                    : 11. 匿名希望モンスター / 亜沙 feat.重音テト
+                    : 12. 悲恋華ブロッサム / 亜沙 feat.重音テト
+                    : 13. 鏡の中のメモリーズ / 亜沙 feat.重音テト
+                    : 14. 東京デイブレーク / 亜沙 feat.重音テト
+                    :
+                    : ★亜沙オリジナル楽曲カラオケ配信中！
+                    :
+                    : ■JOYSOUND
+                    :
+                    : ▼亜沙 feat.重音テト
+                    : http://joysound.com/ex/search/artist.htm?artistId=235277&karaokeall=1
+                    :
+                    : ▼亜沙 feat.IA、MAYU
+                    : http://joysound.com/ex/search/artist.htm?artistId=246211&karaokeall=1
+                    :
+                    : ▼亜沙 feat.MAYU
+                    : http://joysound.com/ex/search/artist.htm?artistId=238346&karaokeall=1
+                    :
+                    : ■DAM
+                    :
+                    : ▼亜沙 feat.重音テト
+                    : http://www.clubdam.com/app/leaf/artistKaraokeLeaf.html?artistCode=459316
+                    :
+                    : ▼亜沙 feat.IA、MAYU
+                    : http://www.clubdam.com/app/leaf/artistKaraokeLeaf.html?artistCode=467374
+    SYNOPSIS        : 吉原ラメントが小説になりました！
+                    : http://www.alphapolis.co.jp/lament/
+                    : 試し読みはこちら！→bk116248
+                    :
+                    : 配信リンク→https://lnk.to/_asa
+                    :
+                    : Lamp Sound Studioの亜沙です。
+                    : 小山乃舞世さんからコラボの話をもらってから半年も時間がかかってしまった。。。
+                    : 花魁さんの歌です。個人的には紫陽花の方が好き。そんな２０１２年夏。
+                    :
+                    : Lamp Sound Studio　http://lampsoundstudio.com/
+                    :
+                    : 作詞 作曲 アレンジ ベース:亜沙
+                    : Twitter:@bass_asa
+                    : http://ameblo.jp/asabassguitar/
+                    : ギター:広末慧
+                    : Twitter:@Kei_Hirosue
+                    : 動画 絵 台詞 調声:小山乃舞世
+                    : Twitter:@yamanon1130
+                    : mylist/18092110
+                    : 歌：重音テト
+                    : offvocal　http://piapro.jp/ele_
+                    : 高くて断念した人用　http://piapro.jp/t/LY0y
+                    :
+                    : ▼亜沙Twitter
+                    : https://twitter.com/bass_asa
+                    :
+                    : ▼亜沙ブログ
+                    : http://ameblo.jp/asabassguitar/
+                    :
+                    : ▼亜沙アルバム好評発売中！
+                    :
+                    : 吉原ラメント〜唄い手盤〜
+                    : QWCE-00304 1,905円(本体)＋税
+                    : 亜沙 × 男性歌い手による豪華饗宴!!
+                    : 再生回数約80万回を記録している
+                    : 超人気UTAU楽曲｢吉原ラメント｣でおなじみ
+                    : UTAUクリエイター『亜沙』の人気楽曲を
+                    : 豪華男性歌い手陣が唄い奏でる!!
+                    : http://www.amazon.co.jp/dp/B00EC41U2C
+                    :
+                    : 01. 吉原ラメント / 亜沙 feat.ピコ
+                    : 02. 星詠みエンドラヴァー / 亜沙 feat.しゃむおん
+                    : 03. 明正ロマン / 亜沙 feat.りぶ
+                    : 04. ヴィジュアル系レッドラム / 亜沙 feat.みーちゃん
+                    : 05. 哀愁レインカフェテリア / 亜沙 feat.赤飯
+                    : 06. 池袋黄昏ナイトクラブ / 亜沙 feat.maro.
+                    : 07. 色彩クリアランス / 亜沙 feat.kradness
+                    : 08. 鏡の中のメモリーズ / 亜沙 feat.かんせる
+                    : 09. stardust / 亜沙 feat.kain
+                    : 10. 新宿ソリチュード / 亜沙 feat.じんけ
+                    : 11. 未来ページ / 亜沙 feat.のど飴
+                    : 12. 六本木ベイビィバタフライ / 亜沙 feat.にっとメガネ
+                    : 13. 道玄坂ネオンアパート / 亜沙
+                    : 14. 東京デイブレーク / 亜沙 feat.けったろ
+                    : 15. 悲恋華ブロッサム / 亜沙 feat.蛇足
+                    :
+                    : 吉原ラメント〜UTAU盤〜
+                    : QWCE-00303 1,905円(本体)＋税
+                    : 全ての重音テトファンに捧げる
+                    : 亜沙1stUTAUアルバム!!
+                    : 再生回数90万回超!
+                    : 小説化も果たした
+                    : 超人気UTAU楽曲「吉原ラメント」でおなじみ
+                    : UTAUクリエイター『亜沙』の人気楽曲を
+                    : 余すところなく収録!!
+                    : http://www.amazon.co.jp/dp/B00GJHXAIM
+                    :
+                    : 01. 吉原ラメント / 亜沙 feat.重音テト
+                    : 02. 浮気者エンドロール / 亜沙 feat.重音テト
+                    : 03. 道玄坂ネオンアパート / 亜沙 feat.重音テト
+                    : 04. 六本木ベイビィバタフライ / 亜沙 feat.重音テト
+                    : 05. 明正ロマン / 亜沙 feat.重音テト
+                    : 06. 哀愁レインカフェテリア / 亜沙 feat.重音テト
+                    : 07. 池袋黄昏ナイトクラブ / 亜沙 feat.重音テト
+                    : 08. 星詠みエンドラヴァー / 亜沙 feat.重音テト
+                    : 09. 海の見える町 / 亜沙 feat.重音テト
+                    : 10. ヴィジュアル系レッドラム / 亜沙 feat.重音テト
+                    : 11. 匿名希望モンスター / 亜沙 feat.重音テト
+                    : 12. 悲恋華ブロッサム / 亜沙 feat.重音テト
+                    : 13. 鏡の中のメモリーズ / 亜沙 feat.重音テト
+                    : 14. 東京デイブレーク / 亜沙 feat.重音テト
+                    :
+                    : ★亜沙オリジナル楽曲カラオケ配信中！
+                    :
+                    : ■JOYSOUND
+                    :
+                    : ▼亜沙 feat.重音テト
+                    : http://joysound.com/ex/search/artist.htm?artistId=235277&karaokeall=1
+                    :
+                    : ▼亜沙 feat.IA、MAYU
+                    : http://joysound.com/ex/search/artist.htm?artistId=246211&karaokeall=1
+                    :
+                    : ▼亜沙 feat.MAYU
+                    : http://joysound.com/ex/search/artist.htm?artistId=238346&karaokeall=1
+                    :
+                    : ■DAM
+                    :
+                    : ▼亜沙 feat.重音テト
+                    : http://www.clubdam.com/app/leaf/artistKaraokeLeaf.html?artistCode=459316
+                    :
+                    : ▼亜沙 feat.IA、MAYU
+                    : http://www.clubdam.com/app/leaf/artistKaraokeLeaf.html?artistCode=467374
+    PURL            : https://www.youtube.com/watch?v=NKYqJ3UvjIk
+    encoder         : Lavf60.4.101
+  Chapters:
+    Chapter #0:0: start 0.014000, end 2.014000
+      Metadata:
+        title           : <Untitled Chapter 1>
+    Chapter #0:1: start 2.014000, end 112.014000
+      Metadata:
+        title           : 多少の性描写がございます
+    Chapter #0:2: start 112.014000, end 117.014000
+      Metadata:
+        title           : 偽りだらけの恋愛
+    Chapter #0:3: start 117.014000, end 122.014000
+      Metadata:
+        title           : 私に咲いた花びら
+    Chapter #0:4: start 122.014000, end 234.014000
+      Metadata:
+        title           : 貴方様どうか私と
+  Stream #0:0(eng): Video: vp9 (Profile 0) (VP90 / 0x30395056), yuv420p(tv), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 30 fps, 30 tbr, 1k tbn (default)
+    Metadata:
+      DURATION        : 00:03:53.980000000
+  Stream #0:1(eng): Audio: opus ([255][255][255][255] / 0xFFFFFFFF), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      DURATION        : 00:03:54.141000000
+  Stream #0:2: Attachment: none
+    Metadata:
+      filename        : cover.png
+      mimetype        : image/png
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:0 -> #0:1 (copy)
+  File cover.png -> Stream #0:2
+Press [q] to stop, [?] for help
+frame= 7019 fps=0.0 q=-1.0 Lsize=   13265kB time=00:03:54.12 bitrate= 464.2kbits/s speed=1.58e+03x
+video:9148kB audio:3559kB subtitle:0kB other streams:0kB global headers:420kB muxing overhead: 4.392479%
+
+D:\Videos>ffmpeg -i output.mkv
+ffmpeg version 2023-04-03-git-6941788d24-full_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      58.  5.100 / 58.  5.100
+  libavcodec     60.  9.100 / 60.  9.100
+  libavformat    60.  4.101 / 60.  4.101
+  libavdevice    60.  2.100 / 60.  2.100
+  libavfilter     9.  5.100 /  9.  5.100
+  libswscale      7.  2.100 /  7.  2.100
+  libswresample   4. 11.100 /  4. 11.100
+  libpostproc    57.  2.100 / 57.  2.100
+Input #0, matroska,webm, from 'output.mkv':
+  Metadata:
+    title           : 【重音テト】吉原ラメント【オリジナル】/【KASANE TETO】Yoshiwara　Lament【original】
+    PURL            : https://www.youtube.com/watch?v=NKYqJ3UvjIk
+    COMMENT         : https://www.youtube.com/watch?v=NKYqJ3UvjIk
+    ARTIST          : “亜沙” ASA official channel
+    DATE            : 20140529
+    DESCRIPTION     : 吉原ラメントが小説になりました！
+                    : http://www.alphapolis.co.jp/lament/
+                    : 試し読みはこちら！→bk116248
+                    :
+                    : 配信リンク→https://lnk.to/_asa
+                    :
+                    : Lamp Sound Studioの亜沙です。
+                    : 小山乃舞世さんからコラボの話をもらってから半年も時間がかかってしまった。。。
+                    : 花魁さんの歌です。個人的には紫陽花の方が好き。そんな２０１２年夏。
+                    :
+                    : Lamp Sound Studio　http://lampsoundstudio.com/
+                    :
+                    : 作詞 作曲 アレンジ ベース:亜沙
+                    : Twitter:@bass_asa
+                    : http://ameblo.jp/asabassguitar/
+                    : ギター:広末慧
+                    : Twitter:@Kei_Hirosue
+                    : 動画 絵 台詞 調声:小山乃舞世
+                    : Twitter:@yamanon1130
+                    : mylist/18092110
+                    : 歌：重音テト
+                    : offvocal　http://piapro.jp/ele_
+                    : 高くて断念した人用　http://piapro.jp/t/LY0y
+                    :
+                    : ▼亜沙Twitter
+                    : https://twitter.com/bass_asa
+                    :
+                    : ▼亜沙ブログ
+                    : http://ameblo.jp/asabassguitar/
+                    :
+                    : ▼亜沙アルバム好評発売中！
+                    :
+                    : 吉原ラメント〜唄い手盤〜
+                    : QWCE-00304 1,905円(本体)＋税
+                    : 亜沙 × 男性歌い手による豪華饗宴!!
+                    : 再生回数約80万回を記録している
+                    : 超人気UTAU楽曲｢吉原ラメント｣でおなじみ
+                    : UTAUクリエイター『亜沙』の人気楽曲を
+                    : 豪華男性歌い手陣が唄い奏でる!!
+                    : http://www.amazon.co.jp/dp/B00EC41U2C
+                    :
+                    : 01. 吉原ラメント / 亜沙 feat.ピコ
+                    : 02. 星詠みエンドラヴァー / 亜沙 feat.しゃむおん
+                    : 03. 明正ロマン / 亜沙 feat.りぶ
+                    : 04. ヴィジュアル系レッドラム / 亜沙 feat.みーちゃん
+                    : 05. 哀愁レインカフェテリア / 亜沙 feat.赤飯
+                    : 06. 池袋黄昏ナイトクラブ / 亜沙 feat.maro.
+                    : 07. 色彩クリアランス / 亜沙 feat.kradness
+                    : 08. 鏡の中のメモリーズ / 亜沙 feat.かんせる
+                    : 09. stardust / 亜沙 feat.kain
+                    : 10. 新宿ソリチュード / 亜沙 feat.じんけ
+                    : 11. 未来ページ / 亜沙 feat.のど飴
+                    : 12. 六本木ベイビィバタフライ / 亜沙 feat.にっとメガネ
+                    : 13. 道玄坂ネオンアパート / 亜沙
+                    : 14. 東京デイブレーク / 亜沙 feat.けったろ
+                    : 15. 悲恋華ブロッサム / 亜沙 feat.蛇足
+                    :
+                    : 吉原ラメント〜UTAU盤〜
+                    : QWCE-00303 1,905円(本体)＋税
+                    : 全ての重音テトファンに捧げる
+                    : 亜沙1stUTAUアルバム!!
+                    : 再生回数90万回超!
+                    : 小説化も果たした
+                    : 超人気UTAU楽曲「吉原ラメント」でおなじみ
+                    : UTAUクリエイター『亜沙』の人気楽曲を
+                    : 余すところなく収録!!
+                    : http://www.amazon.co.jp/dp/B00GJHXAIM
+                    :
+                    : 01. 吉原ラメント / 亜沙 feat.重音テト
+                    : 02. 浮気者エンドロール / 亜沙 feat.重音テト
+                    : 03. 道玄坂ネオンアパート / 亜沙 feat.重音テト
+                    : 04. 六本木ベイビィバタフライ / 亜沙 feat.重音テト
+                    : 05. 明正ロマン / 亜沙 feat.重音テト
+                    : 06. 哀愁レインカフェテリア / 亜沙 feat.重音テト
+                    : 07. 池袋黄昏ナイトクラブ / 亜沙 feat.重音テト
+                    : 08. 星詠みエンドラヴァー / 亜沙 feat.重音テト
+                    : 09. 海の見える町 / 亜沙 feat.重音テト
+                    : 10. ヴィジュアル系レッドラム / 亜沙 feat.重音テト
+                    : 11. 匿名希望モンスター / 亜沙 feat.重音テト
+                    : 12. 悲恋華ブロッサム / 亜沙 feat.重音テト
+                    : 13. 鏡の中のメモリーズ / 亜沙 feat.重音テト
+                    : 14. 東京デイブレーク / 亜沙 feat.重音テト
+                    :
+                    : ★亜沙オリジナル楽曲カラオケ配信中！
+                    :
+                    : ■JOYSOUND
+                    :
+                    : ▼亜沙 feat.重音テト
+                    : http://joysound.com/ex/search/artist.htm?artistId=235277&karaokeall=1
+                    :
+                    : ▼亜沙 feat.IA、MAYU
+                    : http://joysound.com/ex/search/artist.htm?artistId=246211&karaokeall=1
+                    :
+                    : ▼亜沙 feat.MAYU
+                    : http://joysound.com/ex/search/artist.htm?artistId=238346&karaokeall=1
+                    :
+                    : ■DAM
+                    :
+                    : ▼亜沙 feat.重音テト
+                    : http://www.clubdam.com/app/leaf/artistKaraokeLeaf.html?artistCode=459316
+                    :
+                    : ▼亜沙 feat.IA、MAYU
+                    : http://www.clubdam.com/app/leaf/artistKaraokeLeaf.html?artistCode=467374
+    SYNOPSIS        : 吉原ラメントが小説になりました！
+                    : http://www.alphapolis.co.jp/lament/
+                    : 試し読みはこちら！→bk116248
+                    :
+                    : 配信リンク→https://lnk.to/_asa
+                    :
+                    : Lamp Sound Studioの亜沙です。
+                    : 小山乃舞世さんからコラボの話をもらってから半年も時間がかかってしまった。。。
+                    : 花魁さんの歌です。個人的には紫陽花の方が好き。そんな２０１２年夏。
+                    :
+                    : Lamp Sound Studio　http://lampsoundstudio.com/
+                    :
+                    : 作詞 作曲 アレンジ ベース:亜沙
+                    : Twitter:@bass_asa
+                    : http://ameblo.jp/asabassguitar/
+                    : ギター:広末慧
+                    : Twitter:@Kei_Hirosue
+                    : 動画 絵 台詞 調声:小山乃舞世
+                    : Twitter:@yamanon1130
+                    : mylist/18092110
+                    : 歌：重音テト
+                    : offvocal　http://piapro.jp/ele_
+                    : 高くて断念した人用　http://piapro.jp/t/LY0y
+                    :
+                    : ▼亜沙Twitter
+                    : https://twitter.com/bass_asa
+                    :
+                    : ▼亜沙ブログ
+                    : http://ameblo.jp/asabassguitar/
+                    :
+                    : ▼亜沙アルバム好評発売中！
+                    :
+                    : 吉原ラメント〜唄い手盤〜
+                    : QWCE-00304 1,905円(本体)＋税
+                    : 亜沙 × 男性歌い手による豪華饗宴!!
+                    : 再生回数約80万回を記録している
+                    : 超人気UTAU楽曲｢吉原ラメント｣でおなじみ
+                    : UTAUクリエイター『亜沙』の人気楽曲を
+                    : 豪華男性歌い手陣が唄い奏でる!!
+                    : http://www.amazon.co.jp/dp/B00EC41U2C
+                    :
+                    : 01. 吉原ラメント / 亜沙 feat.ピコ
+                    : 02. 星詠みエンドラヴァー / 亜沙 feat.しゃむおん
+                    : 03. 明正ロマン / 亜沙 feat.りぶ
+                    : 04. ヴィジュアル系レッドラム / 亜沙 feat.みーちゃん
+                    : 05. 哀愁レインカフェテリア / 亜沙 feat.赤飯
+                    : 06. 池袋黄昏ナイトクラブ / 亜沙 feat.maro.
+                    : 07. 色彩クリアランス / 亜沙 feat.kradness
+                    : 08. 鏡の中のメモリーズ / 亜沙 feat.かんせる
+                    : 09. stardust / 亜沙 feat.kain
+                    : 10. 新宿ソリチュード / 亜沙 feat.じんけ
+                    : 11. 未来ページ / 亜沙 feat.のど飴
+                    : 12. 六本木ベイビィバタフライ / 亜沙 feat.にっとメガネ
+                    : 13. 道玄坂ネオンアパート / 亜沙
+                    : 14. 東京デイブレーク / 亜沙 feat.けったろ
+                    : 15. 悲恋華ブロッサム / 亜沙 feat.蛇足
+                    :
+                    : 吉原ラメント〜UTAU盤〜
+                    : QWCE-00303 1,905円(本体)＋税
+                    : 全ての重音テトファンに捧げる
+                    : 亜沙1stUTAUアルバム!!
+                    : 再生回数90万回超!
+                    : 小説化も果たした
+                    : 超人気UTAU楽曲「吉原ラメント」でおなじみ
+                    : UTAUクリエイター『亜沙』の人気楽曲を
+                    : 余すところなく収録!!
+                    : http://www.amazon.co.jp/dp/B00GJHXAIM
+                    :
+                    : 01. 吉原ラメント / 亜沙 feat.重音テト
+                    : 02. 浮気者エンドロール / 亜沙 feat.重音テト
+                    : 03. 道玄坂ネオンアパート / 亜沙 feat.重音テト
+                    : 04. 六本木ベイビィバタフライ / 亜沙 feat.重音テト
+                    : 05. 明正ロマン / 亜沙 feat.重音テト
+                    : 06. 哀愁レインカフェテリア / 亜沙 feat.重音テト
+                    : 07. 池袋黄昏ナイトクラブ / 亜沙 feat.重音テト
+                    : 08. 星詠みエンドラヴァー / 亜沙 feat.重音テト
+                    : 09. 海の見える町 / 亜沙 feat.重音テト
+                    : 10. ヴィジュアル系レッドラム / 亜沙 feat.重音テト
+                    : 11. 匿名希望モンスター / 亜沙 feat.重音テト
+                    : 12. 悲恋華ブロッサム / 亜沙 feat.重音テト
+                    : 13. 鏡の中のメモリーズ / 亜沙 feat.重音テト
+                    : 14. 東京デイブレーク / 亜沙 feat.重音テト
+                    :
+                    : ★亜沙オリジナル楽曲カラオケ配信中！
+                    :
+                    : ■JOYSOUND
+                    :
+                    : ▼亜沙 feat.重音テト
+                    : http://joysound.com/ex/search/artist.htm?artistId=235277&karaokeall=1
+                    :
+                    : ▼亜沙 feat.IA、MAYU
+                    : http://joysound.com/ex/search/artist.htm?artistId=246211&karaokeall=1
+                    :
+                    : ▼亜沙 feat.MAYU
+                    : http://joysound.com/ex/search/artist.htm?artistId=238346&karaokeall=1
+                    :
+                    : ■DAM
+                    :
+                    : ▼亜沙 feat.重音テト
+                    : http://www.clubdam.com/app/leaf/artistKaraokeLeaf.html?artistCode=459316
+                    :
+                    : ▼亜沙 feat.IA、MAYU
+                    : http://www.clubdam.com/app/leaf/artistKaraokeLeaf.html?artistCode=467374
+    ENCODER         : Lavf60.4.101
+  Duration: 00:03:54.15, start: 0.000000, bitrate: 464 kb/s
+  Chapters:
+    Chapter #0:0: start 0.014000, end 2.014000
+      Metadata:
+        title           : <Untitled Chapter 1>
+    Chapter #0:1: start 2.014000, end 112.014000
+      Metadata:
+        title           : 多少の性描写がございます
+    Chapter #0:2: start 112.014000, end 117.014000
+      Metadata:
+        title           : 偽りだらけの恋愛
+    Chapter #0:3: start 117.014000, end 122.014000
+      Metadata:
+        title           : 私に咲いた花びら
+    Chapter #0:4: start 122.014000, end 234.014000
+      Metadata:
+        title           : 貴方様どうか私と
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(tv), 640x480, SAR 1:1 DAR 4:3, 30 fps, 30 tbr, 1k tbn (default)
+    Metadata:
+      DURATION        : 00:03:53.987000000
+  Stream #0:1(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+    Metadata:
+      DURATION        : 00:03:54.148000000
   Stream #0:2: Video: png, rgb24(pc, gbr/unknown/unknown), 640x480 [SAR 1:1 DAR 4:3], 90k tbr, 90k tbn (attached pic)
     Metadata:
       filename        : cover.png
